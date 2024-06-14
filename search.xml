@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>blog发布的工作流</title>
+      <link href="/2024/06/15/blog%E5%8F%91%E5%B8%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+      <url>/2024/06/15/blog%E5%8F%91%E5%B8%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>用到了哪些东西？</p><ol><li>node.js</li><li>npm</li><li>hexo</li><li>git</li><li>butterfly</li><li>picgo</li><li>obsidian</li></ol></li><li><p>好像行挺少的。</p></li><li><p>缺陷：</p><ol><li><input disabled="" type="checkbox"> 评论无法只是私信，没什么卵用。</li><li><input disabled="" type="checkbox"> 启动很卡啊！glup有兼容问题，我又什么都不懂。</li></ol></li><li><p>暂定</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在obsidian中使用picgo</title>
       <link href="/2024/06/15/%E5%9C%A8obsidian%E4%B8%AD%E4%BD%BF%E7%94%A8picgo/"/>
       <url>/2024/06/15/%E5%9C%A8obsidian%E4%B8%AD%E4%BD%BF%E7%94%A8picgo/</url>
@@ -36,19 +49,6 @@
     
     
     <entry>
-      <title>你好，世界！</title>
-      <link href="/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/"/>
-      <url>/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/</url>
-      
-        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>为什么要写博客？</title>
       <link href="/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/"/>
       <url>/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/</url>
@@ -67,6 +67,19 @@
       <url>/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/</url>
       
         <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好，世界！</title>
+      <link href="/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/"/>
+      <url>/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       
