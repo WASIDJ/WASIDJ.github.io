@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>可视化作业</title>
+      <link href="/2024/06/15/%E5%8F%AF%E8%A7%86%E5%8C%96%E4%BD%9C%E4%B8%9A/"/>
+      <url>/2024/06/15/%E5%8F%AF%E8%A7%86%E5%8C%96%E4%BD%9C%E4%B8%9A/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 可视化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 作业 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>blog发布的工作流</title>
       <link href="/2024/06/15/blog%E5%8F%91%E5%B8%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
       <url>/2024/06/15/blog%E5%8F%91%E5%B8%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81/</url>
       
-        <content type="html"><![CDATA[<ul><li><p>用到了哪些东西？</p><ol><li>node.js</li><li>npm</li><li>hexo</li><li>git</li><li>butterfly</li><li>picgo</li><li>obsidian</li></ol></li><li><p>好像行挺少的。</p></li><li><p>缺陷：</p><ol><li><input disabled="" type="checkbox"> 评论无法只是私信，没什么卵用。</li><li><input disabled="" type="checkbox"> 启动很卡啊！glup有兼容问题，我又什么都不懂。</li></ol></li><li><p>暂定</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><p>用到了哪些东西？</p><ol><li>node.js</li><li>npm</li><li>hexo</li><li>git</li><li>butterfly</li><li>picgo <ul><li>问题：<ul><li>图床配置在github上会不会卡？<ul><li>感觉是概率问题</li></ul></li></ul></li></ul></li><li>obsidian</li></ol></li><li><p>好像行挺少的。</p></li><li><p>缺陷：</p><ol><li><input disabled="" type="checkbox"> 评论无法只是私信，没什么卵用。</li><li><input disabled="" type="checkbox"> 启动很卡啊！glup有兼容问题，我又什么都不懂。</li></ol></li><li><p>暂定</p></li></ul>]]></content>
       
       
       
@@ -49,11 +74,11 @@
     
     
     <entry>
-      <title>为什么要写博客？</title>
-      <link href="/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/"/>
-      <url>/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/</url>
+      <title>代码块演示</title>
+      <link href="/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/"/>
+      <url>/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/</url>
       
-        <content type="html"><![CDATA[<h1 id="作案动机"><a href="#作案动机" class="headerlink" title="作案动机"></a>作案动机</h1><ul><li>看了刘伟鹏的博客。</li></ul><h2 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h2><h3 id="目标效果"><a href="#目标效果" class="headerlink" title="目标效果"></a>目标效果</h3><ul><li>可以实现可视化作业的展示。（截图本身就是静态的框架）</li><li>暂定</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -62,11 +87,11 @@
     
     
     <entry>
-      <title>代码块演示</title>
-      <link href="/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/"/>
-      <url>/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/</url>
+      <title>为什么要写博客？</title>
+      <link href="/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/"/>
+      <url>/2024/06/14/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%EF%BC%9F/</url>
       
-        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="作案动机"><a href="#作案动机" class="headerlink" title="作案动机"></a>作案动机</h1><ul><li>看了刘伟鹏的博客。</li></ul><h2 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h2><h3 id="目标效果"><a href="#目标效果" class="headerlink" title="目标效果"></a>目标效果</h3><ul><li>可以实现可视化作业的展示。（截图本身就是静态的框架）</li><li>暂定</li></ul>]]></content>
       
       
       
