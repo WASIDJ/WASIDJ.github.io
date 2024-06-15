@@ -31,11 +31,30 @@
     
     
     <entry>
+      <title>ECharts with CSV Example</title>
+      <link href="/archives/f0ccffe4.html"/>
+      <url>/archives/f0ccffe4.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="ECharts-with-CSV-Example"><a href="#ECharts-with-CSV-Example" class="headerlink" title="ECharts with CSV Example"></a>ECharts with CSV Example</h2><div id="echarts9145" style="width: 85%;height: height=400pxpx;margin: 0 auto"></div><script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts9145'));        // 指定图表的配置项和数据        var option = <script>    fetch('/data.csv')        .then(response => response.text())        .then(csvData => {            const parsedData = Papa.parse(csvData, {                header: true,                skipEmptyLines: true            }).data;            const categories = parsedData.map(item => item['Category']);            const values = parsedData.map(item => parseFloat(item['Value']));            const option = {                title: {                    text: 'ECharts Example'                },                tooltip: {},                xAxis: {                    type: 'category',                    data: categories                },                yAxis: {                    type: 'value'                },                series: [{                    name: 'Value',                    type: 'bar',                    data: values                }]            };            echarts.init(document.getElementById('echarts-content')).setOption(option);        })        .catch(error => {            console.error('Error loading CSV file:', error);        });</script>        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> echarts </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>可视化作业</title>
       <link href="/archives/8cbeb1e0.html"/>
       <url>/archives/8cbeb1e0.html</url>
       
-        <content type="html"><![CDATA[<h1 id="echart的插件测试"><a href="#echart的插件测试" class="headerlink" title="echart的插件测试"></a>echart的插件测试</h1><div id="echarts2012" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts2012'));        // 指定图表的配置项和数据        var option =   {      tooltip : {          trigger: 'axis',          axisPointer : {            // 坐标轴指示器，坐标轴触发有效              type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'          }      },      legend: {          data:['利润', '支出', '收入']      },      grid: {          left: '3%',          right: '4%',          bottom: '3%',          containLabel: true      },      xAxis : [          {              type : 'value'          }      ],      yAxis : [          {              type : 'category',              axisTick : {show: false},              data : ['周一','周二','周三','周四','周五','周六','周日']          }      ],      series : [          {              name:'利润',              type:'bar',              itemStyle : {                  normal: {                      label: {show: true, position: 'inside'}                  }              },              data:[200, 170, 240, 244, 200, 220, 210]          },          {              name:'收入',              type:'bar',              stack: '总量',              itemStyle: {                  normal: {                      label : {show: true}                  }              },              data:[320, 302, 341, 374, 390, 450, 420]          },          {              name:'支出',              type:'bar',              stack: '总量',              itemStyle: {normal: {                  label : {show: true, position: 'left'}              }},              data:[-120, -132, -101, -134, -190, -230, -210]          }      ]  };          // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+        <content type="html"><![CDATA[<h1 id="echart的插件测试"><a href="#echart的插件测试" class="headerlink" title="echart的插件测试"></a>echart的插件测试</h1><div id="echarts2091" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts2091'));        // 指定图表的配置项和数据        var option =   {      tooltip : {          trigger: 'axis',          axisPointer : {            // 坐标轴指示器，坐标轴触发有效              type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'          }      },      legend: {          data:['利润', '支出', '收入']      },      grid: {          left: '3%',          right: '4%',          bottom: '3%',          containLabel: true      },      xAxis : [          {              type : 'value'          }      ],      yAxis : [          {              type : 'category',              axisTick : {show: false},              data : ['周一','周二','周三','周四','周五','周六','周日']          }      ],      series : [          {              name:'利润',              type:'bar',              itemStyle : {                  normal: {                      label: {show: true, position: 'inside'}                  }              },              data:[200, 170, 240, 244, 200, 220, 210]          },          {              name:'收入',              type:'bar',              stack: '总量',              itemStyle: {                  normal: {                      label : {show: true}                  }              },              data:[320, 302, 341, 374, 390, 450, 420]          },          {              name:'支出',              type:'bar',              stack: '总量',              itemStyle: {normal: {                  label : {show: true, position: 'left'}              }},              data:[-120, -132, -101, -134, -190, -230, -210]          }      ]  };          // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
       
       
       <categories>
