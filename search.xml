@@ -74,11 +74,11 @@
     
     
     <entry>
-      <title>代码块演示</title>
-      <link href="/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/"/>
-      <url>/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/</url>
+      <title>你好，世界！</title>
+      <link href="/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/"/>
+      <url>/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/</url>
       
-        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       
@@ -100,11 +100,11 @@
     
     
     <entry>
-      <title>你好，世界！</title>
-      <link href="/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/"/>
-      <url>/2024/06/14/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/</url>
+      <title>代码块演示</title>
+      <link href="/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/"/>
+      <url>/2024/06/14/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/</url>
       
-        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
