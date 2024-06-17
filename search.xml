@@ -35,7 +35,7 @@
       <link href="/archives/f0ccffe4.html"/>
       <url>/archives/f0ccffe4.html</url>
       
-        <content type="html"><![CDATA[<h2 id="ECharts-with-CSV-Example"><a href="#ECharts-with-CSV-Example" class="headerlink" title="ECharts with CSV Example"></a>ECharts with CSV Example</h2><div id="echarts9149" style="width: 85%;height: height=400pxpx;margin: 0 auto"></div><script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts9149'));        // 指定图表的配置项和数据        var option = <script>    fetch('/data.csv')        .then(response => response.text())        .then(csvData => {            const parsedData = Papa.parse(csvData, {                header: true,                skipEmptyLines: true            }).data;            const categories = parsedData.map(item => item['Category']);            const values = parsedData.map(item => parseFloat(item['Value']));            const option = {                title: {                    text: 'ECharts Example'                },                tooltip: {},                xAxis: {                    type: 'category',                    data: categories                },                yAxis: {                    type: 'value'                },                series: [{                    name: 'Value',                    type: 'bar',                    data: values                }]            };            echarts.init(document.getElementById('echarts-content')).setOption(option);        })        .catch(error => {            console.error('Error loading CSV file:', error);        });</script>        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+        <content type="html"><![CDATA[<h2 id="ECharts-with-CSV-Example"><a href="#ECharts-with-CSV-Example" class="headerlink" title="ECharts with CSV Example"></a>ECharts with CSV Example</h2><div id="echarts446" style="width: 85%;height: height=400pxpx;margin: 0 auto"></div><script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts446'));        // 指定图表的配置项和数据        var option = <script>    fetch('/data.csv')        .then(response => response.text())        .then(csvData => {            const parsedData = Papa.parse(csvData, {                header: true,                skipEmptyLines: true            }).data;            const categories = parsedData.map(item => item['Category']);            const values = parsedData.map(item => parseFloat(item['Value']));            const option = {                title: {                    text: 'ECharts Example'                },                tooltip: {},                xAxis: {                    type: 'category',                    data: categories                },                yAxis: {                    type: 'value'                },                series: [{                    name: 'Value',                    type: 'bar',                    data: values                }]            };            echarts.init(document.getElementById('echarts-content')).setOption(option);        })        .catch(error => {            console.error('Error loading CSV file:', error);        });</script>        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
       
       
       
@@ -135,11 +135,11 @@
     
     
     <entry>
-      <title>代码块演示</title>
-      <link href="/archives/d8d3d04e.html"/>
-      <url>/archives/d8d3d04e.html</url>
+      <title>你好，世界！</title>
+      <link href="/archives/5285b14b.html"/>
+      <url>/archives/5285b14b.html</url>
       
-        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       
@@ -148,11 +148,11 @@
     
     
     <entry>
-      <title>你好，世界！</title>
-      <link href="/archives/5285b14b.html"/>
-      <url>/archives/5285b14b.html</url>
+      <title>代码块演示</title>
+      <link href="/archives/d8d3d04e.html"/>
+      <url>/archives/d8d3d04e.html</url>
       
-        <content type="html"><![CDATA[<h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><ul><li>你好，世界！</li><li>好，世界！</li><li>世界！</li><li>界！</li><li>！</li><li>先hexo clean 再 hexo s 最后 hexo d<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> ()&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;你好，世界！&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
