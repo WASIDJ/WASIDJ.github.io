@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://wasidj.github.io/archives/0.html</loc>
-    
-    <lastmod>2024-06-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wasidj.github.io/archives/f0ccffe4.html</loc>
     
     <lastmod>2024-06-15</lastmod>
@@ -171,20 +162,6 @@
   </url>
   
   <url>
-    <loc>https://wasidj.github.io/tags/%E4%BD%9C%E4%B8%9A/</loc>
-    <lastmod>2024-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wasidj.github.io/tags/Echarts/</loc>
-    <lastmod>2024-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wasidj.github.io/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2024-06-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,6 +170,20 @@
   
   <url>
     <loc>https://wasidj.github.io/tags/echarts/</loc>
+    <lastmod>2024-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wasidj.github.io/tags/%E4%BD%9C%E4%B8%9A/</loc>
+    <lastmod>2024-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wasidj.github.io/tags/Echarts/</loc>
     <lastmod>2024-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
