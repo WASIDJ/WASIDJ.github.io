@@ -2,82 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:5712/</loc>
+    <loc>https://WASIDJ.github.io/</loc>
     <lastmod>2024-11-26T17:00:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/post/</loc>
+    <loc>https://WASIDJ.github.io/categories/</loc>
     <lastmod>2024-11-26T17:00:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/%E5%9F%BA%E7%A1%80%E7%94%A8%E4%BE%8B/</loc>
+    <loc>https://WASIDJ.github.io/categories/hugo/</loc>
     <lastmod>2024-11-26T17:00:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/</loc>
+    <loc>https://WASIDJ.github.io/post/</loc>
+    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/%E5%9F%BA%E7%A1%80%E7%94%A8%E4%BE%8B/</loc>
+    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/test-chinese/</loc>
+    <loc>https://WASIDJ.github.io/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/test/</loc>
+    <loc>https://WASIDJ.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:5712/page/</loc>
+    <loc>https://WASIDJ.github.io/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/archives/</loc>
+    <loc>https://WASIDJ.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/css/</loc>
+    <loc>https://WASIDJ.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/html/</loc>
+    <loc>https://WASIDJ.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/markdown/</loc>
+    <loc>https://WASIDJ.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/markdown-syntax-guide/</loc>
+    <loc>https://WASIDJ.github.io/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/syntax/</loc>
+    <loc>https://WASIDJ.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/</loc>
+    <loc>https://WASIDJ.github.io/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/themes/</loc>
+    <loc>https://WASIDJ.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/themes/</loc>
+    <loc>https://WASIDJ.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/placeholder-text/</loc>
+    <loc>https://WASIDJ.github.io/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/tag-with-whitespaces/</loc>
+    <loc>https://WASIDJ.github.io/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/categories/test-with-whitespaces/</loc>
+    <loc>https://WASIDJ.github.io/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/text/</loc>
+    <loc>https://WASIDJ.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/math-typesetting/</loc>
+    <loc>https://WASIDJ.github.io/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/tags/emoji/</loc>
+    <loc>https://WASIDJ.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/p/emoji-support/</loc>
+    <loc>https://WASIDJ.github.io/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5712/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://WASIDJ.github.io/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>http://localhost:5712/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://WASIDJ.github.io/%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>http://localhost:5712/search/</loc>
+    <loc>https://WASIDJ.github.io/search/</loc>
   </url>
 </urlset>
