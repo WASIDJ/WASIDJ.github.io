@@ -124,7 +124,11 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;themes&lt;/code&gt; 配置&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 传到 &lt;code&gt;Github&lt;/code&gt; 上去&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;Github Action&lt;/code&gt; 自动化部署&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加 &lt;code&gt;utterances&lt;/code&gt; 评论系统&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加 &lt;code&gt;utterances&lt;/code&gt; 评论系统 评论还有问题 不过我不想理它了
+&lt;ul&gt;
+&lt;li&gt;具体表现为 评论哪都能看见 并非针对单一的文章&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 写下第一篇文章, 说明要做什么以及如何搭建博客? (不要浪费太多时间)
 &lt;ul&gt;
 &lt;li&gt;大纲:
@@ -156,7 +160,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;obsidian&lt;/code&gt; 再开一个仓库 : &lt;a class=&#34;link&#34; href=&#34;https://sspai.com/post/87431&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;另一个思路 obsidian中自己点&lt;/a&gt; -&amp;gt;能不能在手机上就完成 博客的发布?&lt;/p&gt;
+    &gt;另一个思路 obsidian中自己点&lt;/a&gt; -&amp;gt;能不能在手机上就完成 博客的发布? 需要去看 &lt;code&gt;2024年11月26日 20点24分&lt;/code&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 写一个脚本 启动&lt;code&gt;.bat&lt;/code&gt;
 &lt;ul&gt;
