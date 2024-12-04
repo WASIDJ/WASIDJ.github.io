@@ -3,15 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://WASIDJ.github.io/</loc>
-    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://WASIDJ.github.io/categories/</loc>
-    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/hugo/</loc>
-    <lastmod>2024-11-26T17:00:13+08:00</lastmod>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://WASIDJ.github.io/post/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/%E6%9E%97%E5%AD%90%E9%9B%A8%E5%A4%A7%E6%95%B0%E6%8D%AE%E8%BD%AF%E4%BB%B6-%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/%E6%AF%8F%E6%97%A5%E8%A6%81%E5%B9%B2%E7%9A%84%E4%BA%8B%E6%83%85/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/%E5%8C%B9%E5%A4%AB%E4%B9%8B%E6%80%92--600%E9%A2%98/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E6%97%B6%E9%97%B4/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/p/%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89%E8%80%85--%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://WASIDJ.github.io/categories/hugo/</loc>
     <lastmod>2024-11-26T17:00:13+08:00</lastmod>
   </url><url>
     <loc>https://WASIDJ.github.io/categories/%E5%9F%BA%E7%A1%80/</loc>
@@ -38,20 +65,11 @@
     <loc>https://WASIDJ.github.io/categories/%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://WASIDJ.github.io/categories/%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://WASIDJ.github.io/p/%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://WASIDJ.github.io/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://WASIDJ.github.io/categories/%E5%8E%9F%E5%88%99/</loc>
+    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://WASIDJ.github.io/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -59,50 +77,9 @@
     <loc>https://WASIDJ.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://WASIDJ.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/p/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://WASIDJ.github.io/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://WASIDJ.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/p/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/tags/tag-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/categories/test-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://WASIDJ.github.io/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://WASIDJ.github.io/categories/test/</loc>
   </url><url>
     <loc>https://WASIDJ.github.io/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
