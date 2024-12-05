@@ -478,6 +478,14 @@
 </span><span class="lnt">52
 </span><span class="lnt">53
 </span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3.7&#39;</span><span class="w">
@@ -495,6 +503,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;8080:8080&#39;</span><span class="w">  </span><span class="c"># Spark Web UI</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;7077:7077&#39;</span><span class="w">  </span><span class="c"># Spark master communication port</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">extra_hosts</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;host.docker.internal:${HOST_IP}&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">spark-worker-1</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">bitnami/spark:3.5.1</span><span class="w">
@@ -508,6 +518,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_SSL_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_USER=spark</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">extra_hosts</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;host.docker.internal:${HOST_IP}&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">spark-worker-2</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">bitnami/spark:3.5.1</span><span class="w">
@@ -521,6 +533,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_SSL_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_USER=spark</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">extra_hosts</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;host.docker.internal:${HOST_IP}&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">spark-worker-3</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">bitnami/spark:3.5.1</span><span class="w">
@@ -534,6 +548,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_SSL_ENABLED=no</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">SPARK_USER=spark</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">extra_hosts</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;host.docker.internal:${HOST_IP}&#34;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>

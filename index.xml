@@ -147,6 +147,14 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;62
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;3.7&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -164,6 +172,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s1&#34;&gt;&amp;#39;8080:8080&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Spark Web UI&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s1&#34;&gt;&amp;#39;7077:7077&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Spark master communication port&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;extra_hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;host.docker.internal:${HOST_IP}&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spark-worker-1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bitnami/spark:3.5.1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -177,6 +187,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_SSL_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_USER=spark&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;extra_hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;host.docker.internal:${HOST_IP}&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spark-worker-2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bitnami/spark:3.5.1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -190,6 +202,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_SSL_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_USER=spark&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;extra_hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;host.docker.internal:${HOST_IP}&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spark-worker-3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bitnami/spark:3.5.1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -203,6 +217,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_SSL_ENABLED=no&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;SPARK_USER=spark&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;extra_hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;host.docker.internal:${HOST_IP}&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
@@ -224,11 +240,106 @@
         <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
         
         <guid>https://WASIDJ.github.io/p/%E6%AF%8F%E6%97%A5%E8%A6%81%E5%B9%B2%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
-        <description>&lt;h2 id=&#34;2024年12月4日&#34;&gt;2024年12月4日
+        <description>&lt;ul&gt;
+&lt;li&gt;prompt:
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://baoyu.io/translations/prompt-engineering/chatgpt-prompts-for-academic-writing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;15 个 ChatGPT 学术写作神器提示&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2024年12月4日&#34;&gt;2024年12月4日
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 大数据软件 &lt;a class=&#34;link&#34; href=&#34;https://dblab.xmu.edu.cn/blog/4189/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 大数据软件 &lt;a class=&#34;link&#34; href=&#34;https://dblab.xmu.edu.cn/blog/4189/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;安装&lt;/a&gt;  1-9 下午完成 剩下的时间看 书&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 计算机组成 看到第二章&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2024年12月5日&#34;&gt;2024年12月5日
+&lt;/h2&gt;&lt;h3 id=&#34;任务&#34;&gt;任务
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 再来一套 四级 题目 加上 作文 和 翻译
+&lt;ul&gt;
+&lt;li&gt;看看水平&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把 管理学作业 写了 找AI&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修复 &lt;code&gt;ocs&lt;/code&gt; 不好刷 智慧树的水课问题  花了 27mins&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 博客中新建 原则 主要添加一些 cliche 的解答,省的 一遍遍反驳别人,费神,也省得直接重复思考.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 耳机 丢了 京东上买 耳机&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1ni4y1G7B9/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=4b0ee375ec8ee9fb646ccb2361a5ccb4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;最通俗易懂的计算机底层教学，二进制到汇编学习&lt;/a&gt; 加上 &lt;code&gt;manim&lt;/code&gt; 动画 正对幼儿教育 传到 &lt;code&gt;Youtube&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在 obsidian中写 博客 配置 picgo 插件?
+&lt;ul&gt;
+&lt;li&gt;测试 &lt;img src=&#34;https://cdn.jsdelivr.net/gh/WASIDJ/picBed/img/20241205170942.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/627930429&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参考链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;everything&lt;/code&gt; 清理 &lt;code&gt;C盘&lt;/code&gt; 妙招 &lt;code&gt;size:&amp;gt;100mb c:\&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;事件记录&#34;&gt;事件记录
+&lt;/h3&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;先理解一下 &lt;strong&gt;管理学课程考查作业要求&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;运用任意一个管理学理论，分析体育商业领域中的一个实际案例。学生需要展示如何运用理论来解释该案例中的关键问题，并提供切实可行的管理建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;选题指导 我想 选 &lt;code&gt;keep&lt;/code&gt;这个运动软件
+&lt;ol&gt;
+&lt;li&gt;体育俱乐部的经营管理&lt;/li&gt;
+&lt;li&gt;体育品牌与赞助&lt;/li&gt;
+&lt;li&gt;体育赛事的组织与营销&lt;/li&gt;
+&lt;li&gt;体育科技与创新&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;结构要求:
+&lt;ol&gt;
+&lt;li&gt;引言部分
+&lt;ul&gt;
+&lt;li&gt;简要介绍所选案例背景、阐述分析的管理学理论及其适用性、论文目的和问题陈述。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;理论框架
+&lt;ul&gt;
+&lt;li&gt;选定的管理学理论简要回顾（例如，SWOT分析、波特五力模型、古典管理理论、领导力理论等）。理论的核心观点和适用条件，理论如何解释和分析体育商业领域中的管理问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;案例分析
+&lt;ul&gt;
+&lt;li&gt;深入分析所选案例中的关键管理问题或挑战。运用选定的管理学理论，详细阐述如何用该理论来分析该案例中的问题。举例说明，可能包括管理决策的实施、组织结构的设计、市场定位策略等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;管理建议
+&lt;ul&gt;
+&lt;li&gt;基于案例分析，提出切实可行的管理建议。结合理论和实际情况，如何改进或优化管理实践。可能的风险及应对策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;一个问题:我能不能用 AI 来给我的 word 文件排版?
+&lt;ul&gt;
+&lt;li&gt;具体要求:
+&lt;ul&gt;
+&lt;li&gt;[[管理学作业]]&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
@@ -517,6 +628,48 @@
         
         <guid>https://WASIDJ.github.io/archives/</guid>
         <description></description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://WASIDJ.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://WASIDJ.github.io/p/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://WASIDJ.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://WASIDJ.github.io/p/</guid>
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言
+&lt;/h2&gt;&lt;p&gt;随着健康和健身意识在全球范围内的崛起，体育科技行业正经历着前所未有的蓬勃发展。在中国，随着人们对生活质量要求的不断提高，健身市场也进入了快速增长期。在此背景下，Keep软件自2015年推出以来，迅速占据了中国市场的重要地位，成为了许多健身爱好者的首选应用。Keep提供的健身课程、运动记录、社交功能以及电商商城等多元化服务，使其成为了一个全方位的健康管理平台。然而，随着用户基数的扩大，Keep也面临着一系列的管理挑战，包括用户增长放缓、用户粘性不足、商业模式单一等问题。在竞争愈发激烈的市场环境中，如何保持其市场领导地位，成为了Keep急需解决的战略性问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/347544402&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Keep拆解分析报告&lt;/a&gt; 提供了Keep的市场行业表现和公司概况，包括用户量、资本加持、产品价值和盈利模式等方面的详细分析。&lt;/p&gt;
+&lt;p&gt;本论文旨在通过SWOT分析这一管理学工具，全面评估Keep在当前市场环境中的表现，探讨其面临的挑战，并提出相应的改进建议。SWOT分析不仅能够帮助我们识别Keep的内部优势与劣势，还能从外部环境中挖掘潜在机会与威胁。通过这一分析框架，本文将深入探讨Keep如何在竞争激烈的市场中利用自身优势、化解挑战、实现可持续发展。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/504635436&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;管理学分析方法类毕业论文文献&lt;/a&gt; 为管理学分析方法选题相关人员撰写毕业论文提供参考，包括期刊论文和管理学与经济学方法的借鉴融合分析。&lt;/p&gt;
+&lt;h2 id=&#34;理论框架&#34;&gt;理论框架
+&lt;/h2&gt;&lt;p&gt;SWOT分析作为一种战略规划工具，广泛应用于企业战略制定过程中，能够系统地评估企业的内部和外部环境。在企业管理中，SWOT分析通常通过识别企业的&lt;strong&gt;优势&lt;/strong&gt;、&lt;strong&gt;劣势&lt;/strong&gt;、&lt;strong&gt;机会&lt;/strong&gt;和&lt;strong&gt;威胁&lt;/strong&gt;，帮助决策者制定出最适合的战略方针。具体而言，优势是企业在市场中的独特竞争力，劣势是企业需要改善的领域，机会是外部市场为企业提供的增长空间，而威胁则是外部环境中可能影响企业发展的不利因素。&lt;/p&gt;
+&lt;p&gt;对于Keep而言，SWOT分析具有重要的指导意义。在高度竞争的健身软件市场中，Keep不仅需要充分发挥其已有的技术优势和品牌影响力，还必须在面对不断变化的市场需求和激烈竞争的挑战时，灵活调整战略。因此，SWOT分析能够帮助Keep系统地识别出其在当前市场中的核心竞争力、面临的管理难题及潜在的市场机会，从而制定出切实可行的发展战略。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wenku.baidu.com/view/6eafa365e73a580216fc700abb68a98270feacc6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;基于体验营销视角下keep的营销管理策略研究&lt;/a&gt; 从体验营销的角度分析了Keep的营销管理策略，提供了对Keep营销策略的深入理解。&lt;/p&gt;
+&lt;h2 id=&#34;案例分析&#34;&gt;案例分析
+&lt;/h2&gt;&lt;p&gt;Keep在市场上的快速崛起离不开其强大的品牌知名度和综合性功能，但随着市场逐渐饱和，企业面临的挑战也逐步显现。首先，尽管Keep在早期的用户增长表现强劲，但随着市场逐渐趋于饱和，其新增用户数已显著放缓。这一问题不仅反映了Keep在用户获取方面的困境，也反映了整个健身行业的竞争压力逐渐加大。其次，Keep在用户留存方面同样存在不足。虽然其拥有庞大的用户基础，但大部分用户在下载后未能长期活跃，导致留存率偏低，活跃用户的比例不断下降。这些问题表明，Keep在增强用户粘性和提供持续吸引力方面仍然存在较大的改进空间。&lt;/p&gt;
+&lt;p&gt;更为关键的是，Keep的商业模式较为单一，主要依赖于广告收入和线上课程销售。虽然这些收入来源在短期内能为企业带来稳定的现金流，但缺乏多元化的盈利方式，使得Keep在面对竞争对手和市场波动时，缺乏足够的抗风险能力。同时，Keep在高端用户市场的布局也显得薄弱，其提供的课程和服务更多偏向于大众市场，未能有效满足专业用户群体的需求。随着消费者需求的多样化，单一的商业模式和内容产品难以持续吸引并留住核心用户。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.woshipm.com/evaluating/4862312.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Keep产品分析报告 – 人人都是产品经理&lt;/a&gt; 提供了Keep产品的具体分析，包括用户数、融资估值以及商业模式的探讨。&lt;/p&gt;
+&lt;p&gt;在竞争环境方面，随着技术创新和传统健身品牌的加入，Keep面临的市场竞争日益激烈。例如，Lululemon推出的智能健身镜Mirror、Peloton的健身设备和内容服务等都成为了Keep的重要竞争对手。这些品牌不仅具备硬件技术优势，还在用户体验和品牌营销上进行了大量投入，给Keep的市场份额带来了不小的威胁。&lt;/p&gt;
+&lt;p&gt;通过SWOT分析，我们能够清晰地看到Keep的优势和劣势，以及其在市场中面临的机会和威胁。Keep的核心优势在于其强大的品牌影响力、技术创新能力和多元化的功能组合，这为其在市场中占据了一席之地。然而，其在用户粘性、商业模式多样化以及高端用户需求满足方面的劣势，使得Keep在快速发展的市场环境中面临较大的挑战。与此同时，健身市场的持续增长和技术创新为Keep提供了新的发展机遇，但日益激烈的竞争和政策不确定性也为其未来发展增添了不小的风险。&lt;/p&gt;
+&lt;h2 id=&#34;管理建议&#34;&gt;管理建议
+&lt;/h2&gt;&lt;p&gt;在分析了Keep面临的挑战后，本文提出以下几方面的管理建议，以期帮助Keep在激烈的市场竞争中保持其领先地位。&lt;/p&gt;
+&lt;p&gt;首先，为了解决用户留存和活跃度问题，Keep需要在提升用户体验方面做出更大努力。通过优化课程内容，提高其专业性和个性化，Keep能够吸引并保持更多的高端用户。此外，增强社交化功能，通过增加用户之间的互动、举办线上挑战赛等方式，能够提升用户的参与感和归属感，从而增加用户粘性。结合游戏化设计，例如积分奖励、成就解锁等，也能激励用户更长时间地使用软件，提升其活跃度。&lt;/p&gt;
+&lt;p&gt;其次，针对商业模式单一的问题，Keep需要拓展收入来源，降低对广告和单一电商业务的依赖。推出会员订阅服务，将更多的高级课程和个性化服务整合为付费内容，能够有效增加收入的稳定性。同时，Keep还可以开发智能硬件产品，形成软件与硬件相结合的生态系统，以提升其市场竞争力和盈利能力。通过与企业合作推出定制化的健身服务，为企业员工提供健身福利，也能够打开新的市场和收入渠道。&lt;/p&gt;
+&lt;p&gt;最后，为了应对市场竞争的压力，Keep需要进一步强化品牌营销，巩固其在年轻用户中的品牌形象。通过跨界合作、品牌联名等方式，可以提升其品牌影响力并吸引更多目标用户。此外，国际化扩张也是Keep未来发展的重要方向，选择东南亚等健身市场潜力较大的地区进行布局，将为其全球化发展提供更多的机遇。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论
+&lt;/h2&gt;&lt;p&gt;Keep作为中国领先的运动健身软件，凭借其强大的品牌和技术优势，在市场中占据了重要地位。然而，随着市场竞争的加剧及用户需求的多样化，Keep面临着一系列管理挑战。通过SWOT分析，本文揭示了Keep在用户增长、用户留存、商业模式等方面的挑战，并提出了针对性的管理建议。为了在竞争激烈的市场中保持领先地位，Keep应通过优化用户体验、拓展商业模式和强化品牌竞争力来应对这些挑战。此外，本文也指出了Keep在未来发展中可能面临的风险，并建议其通过多元化收入来源和国际化扩展等措施加强抗风险能力。希望本研究能够为其他类似企业提供借鉴，并为体育科技行业的学术研究提供一定的参考价值。&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>关于</title>
