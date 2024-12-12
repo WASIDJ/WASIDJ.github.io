@@ -27,7 +27,10 @@
         <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
         
         <guid>https://WASIDJ.github.io/p/%E6%96%B0%E7%9A%84%E6%97%B6%E4%BB%A3/</guid>
-        <description></description>
+        <description>&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
         </item>
         <item>
         <title>一些不可变的原则问题</title>
@@ -355,17 +358,44 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;2024年12月10日&#34;&gt;2024年12月10日
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 黑客马拉松:
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 黑客马拉松:
 &lt;ul&gt;
 &lt;li&gt;今天把  [[ concreteness/java大作业]] 一次性写完&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重新配置 &lt;code&gt;pandoc&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;四级&lt;/code&gt; 作文 翻译 和 听力&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 一个小软件 : 针对痛点 获取 兼职内容 和我的日程进行比对 ,给我 兼职建议?&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 一个小软件 : 针对痛点 获取 兼职内容 和我的日程进行比对 ,给我 兼职建议? 一个更加好看的框架&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/大数据技术原理与应用实训大作业要求]]  现已加入 马拉松&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;毛泽东 期末论文&lt;/code&gt; 狗日的手抄&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 快点 把期末大作业写完 然后 在微信朋友圈中 帮人写作业  &lt;code&gt;75RMB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;毛泽东 期末论文&lt;/code&gt; 狗日的手抄&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 快点 把期末大作业写完 然后 在微信朋友圈中 帮人写作业  &lt;code&gt;75RMB&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;SC&lt;/code&gt; &lt;code&gt;50￥&lt;/code&gt; 还在考虑中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2024年12月11日&#34;&gt;2024年12月11日
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 整理听力策略 作文和翻译策略  实验两张卷子看看
+&lt;ul&gt;
+&lt;li&gt;参考:
+1.&lt;/li&gt;
+&lt;li&gt;[[concreteness/策略总结]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2024年12月12日&#34;&gt;2024年12月12日
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;debug:&lt;/code&gt;  wsl 启动时会 自动 打开 WSL Debug Console
+&lt;ul&gt;
+&lt;li&gt;如下:![[Pasted image 20241212134635.png]]&lt;/li&gt;
+&lt;li&gt;参考链接:&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/WSL/issues/10621&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WSL Debug Console Popup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;具体 做法 &lt;code&gt;notepad %userprofile%\.wslconfig&lt;/code&gt; 找到&lt;code&gt;debugConsole=true&lt;/code&gt; 改为&lt;code&gt;false&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英语听力 昨天的作文 没有开写&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数学 概率&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;事件记录&#34;&gt;事件记录
 &lt;/h2&gt;&lt;h4 id=&#34;2024年12月5日-1&#34;&gt;2024年12月5日
@@ -454,6 +484,40 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;挖到宝了 [[新词]]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;2024年12月11日-1&#34;&gt;2024年12月11日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 写 四级没人指导 没人批阅 能不能用 AI实现?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;2024年12月12日-1&#34;&gt;2024年12月12日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;极端的想法,一直不想用鼠标 确切的说不想 &lt;code&gt;点击&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;要关注的 项目 &lt;a class=&#34;link&#34; href=&#34;https://github.com/philc/vimium&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vimium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如何设置快捷键 快速 唤醒 &lt;code&gt;terminal&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;快捷键 &lt;code&gt;Win + ` &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;IDEA&lt;/code&gt; 中 用 &lt;code&gt;Vim&lt;/code&gt; 我倦了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;必须要具备的能力&#34;&gt;必须要具备的能力
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;excel&lt;/code&gt; &lt;code&gt;word&lt;/code&gt; &lt;code&gt;ppt&lt;/code&gt; 这三个都好像要精通 ,没事把这个 作品上传到 &lt;code&gt;blog&lt;/code&gt; 上去&lt;/li&gt;
+&lt;li&gt;英语&lt;/li&gt;
+&lt;li&gt;数学&lt;/li&gt;
+&lt;li&gt;408&lt;/li&gt;
+&lt;li&gt;算法  写题&lt;/li&gt;
+&lt;li&gt;写作  写需求文档&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;可能要具备的能力&#34;&gt;可能要具备的能力
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;docker 云计算技术&lt;/li&gt;
+&lt;li&gt;manim 教学动画&lt;/li&gt;
+&lt;li&gt;blender 个人爱好&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
@@ -787,6 +851,31 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;%%&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://WASIDJ.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://WASIDJ.github.io/p/</guid>
+        <description>&lt;h3 id=&#34;坚持开拓创新推动时代发展的永恒动力&#34;&gt;坚持开拓创新：推动时代发展的永恒动力
+&lt;/h3&gt;&lt;p&gt;人类的进步，全世界的进步，始终离不开开拓创新这一驱动力。财富来源于劳动与创造，期望寄托于未来。对中国共产党而言，开拓创新不仅是一种理论指引，更是贯穿革命、建设与改革全过程的实践智慧。坚持开拓创新，体现了中国道路的独特优势，为实现中华民族的伟大复兴提供了源源不断的动力。本文从历史回顾、理论阐释、现实实践和辩证思考四个维度探讨这一理念的深远意义。&lt;/p&gt;
+&lt;h4 id=&#34;开拓创新的历史脉络&#34;&gt;开拓创新的历史脉络
+&lt;/h4&gt;&lt;p&gt;中国革命的胜利是开拓创新的直接成果。从1921年建党之初，中国共产党在探索救国道路时，就坚持将马克思主义基本原理同中国具体实际相结合，开创了符合本国国情的革命道路。以毛泽东为代表的第一代领导集体提出“农村包围城市，武装夺取政权”的道路，与当时共产国际倡导的城市暴动模式形成鲜明对比，成为马克思主义中国化的重要实践。正是这种突破性思维，为中国革命指明了正确方向。&lt;/p&gt;
+&lt;p&gt;新中国成立后，开拓创新的精神推动了社会主义建设的重大进展。20世纪50年代，面对西方国家的封锁与禁运，中国在极端困难的条件下，自主研发了“两弹一星”，成功迈入核武器强国行列。这是科技领域开拓创新的典范，不仅维护了国家主权安全，更增强了民族自信心。1978年，邓小平同志果断提出改革开放，确立了以经济建设为中心的基本路线，开创了中国特色社会主义道路的新篇章。&lt;/p&gt;
+&lt;h4 id=&#34;理论视野下的开拓创新&#34;&gt;理论视野下的开拓创新
+&lt;/h4&gt;&lt;p&gt;坚持开拓创新是中国特色社会主义理论体系的重要组成部分。党的十九大报告明确提出，“创新是引领发展的第一动力，是建设现代化经济体系的战略支撑”。习近平总书记多次强调，要把创新摆在国家发展全局的核心位置，推动科技自立自强。&lt;/p&gt;
+&lt;p&gt;开拓创新不仅仅是技术层面的突破，更是思想层面的解放。这一理念体现了马克思主义的与时俱进，是对“解放思想、实事求是”思想路线的继承与发展。无论是改革开放初期的“摸着石头过河”，还是今天的全面深化改革，无不需要在理论上不断突破，在实践中反复探索。&lt;/p&gt;
+&lt;h4 id=&#34;开拓创新在新时代的实践&#34;&gt;开拓创新在新时代的实践
+&lt;/h4&gt;&lt;p&gt;进入新时代，中国在经济、科技、社会治理等方面取得的辉煌成就，都离不开开拓创新的精神。以科技为例，中国在5G技术、人工智能、量子计算等领域已跻身世界领先行列。华为公司作为其中的代表，不仅在5G标准制定中扮演重要角色，还推动了全球通信技术的升级换代。这背后是国家对自主研发的高度重视，也是企业持续创新的不懈努力。&lt;/p&gt;
+&lt;p&gt;此外，“一带一路”倡议是中国在国际合作领域开拓创新的成功实践。面对全球化的新挑战，中国提出共商、共建、共享的理念，为世界经济注入了新活力。这一创新性举措突破了传统国际关系模式，为全球治理贡献了中国智慧。&lt;/p&gt;
+&lt;h4 id=&#34;辩证思考与未来展望&#34;&gt;辩证思考与未来展望
+&lt;/h4&gt;&lt;p&gt;坚持开拓创新必须处理好稳与进的关系。历史经验表明，创新带来机遇的同时，也伴随着风险与挑战。例如，在“人民公社化”试验中，由于理论与实践脱节，导致了严重的社会经济后果。这提醒我们，创新要建立在科学论证与充分准备的基础上，避免盲目冒进。&lt;/p&gt;
+&lt;p&gt;另一方面，创新的边界在哪里？面对国际竞争压力和国内发展需求，我们需要在开放与保护、自主与合作之间找到平衡。特别是在核心技术领域，中国必须坚持自主创新，同时积极融入全球创新网络，实现双向互动。&lt;/p&gt;
+&lt;h4 id=&#34;个人感悟与结语&#34;&gt;个人感悟与结语
+&lt;/h4&gt;&lt;p&gt;作为一名青年学生，我深刻感受到坚持开拓创新的重要性。在学习中，我们需要打破思维定势，主动探索未知领域；在实践中，我们更应勇于面对困难，积极寻找解决之道。开拓创新不仅是一种国家精神，更应成为每个人的行动指南。&lt;/p&gt;
+&lt;p&gt;展望未来，中国将在创新驱动的发展道路上越走越远。开拓创新不仅是实现中国梦的关键路径，也为人类社会的发展进步提供了中国方案。唯有坚持开拓创新，我们才能不断创造新的历史，迈向更加光明的未来。&lt;/p&gt;
 </description>
         </item>
         <item>
