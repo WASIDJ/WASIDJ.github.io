@@ -109,6 +109,34 @@ $P(A - B) = P(A) - P(AB)$
 $P(A \overline{B}) = P(A)-P(AB)$
 证:$P(A  \overline{B}) = P{A(\Omega - B)}=P(A-AB)$&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 全概率公式与贝叶斯公式⭐
+公式:$P(A) = \sum_{i=1}^n P(A \cap B_i) = \sum_{i=1}^n P(A | B_i) P(B_i)$
+完备事件组:
+两两互斥: $B_i \cap B_j = \emptyset, \quad \forall i \neq j$
+穷尽性: $\bigcup_{i=1}^n B_i = \Omega$
+贝叶斯公式: $P(A | B) = \frac{P(B | A) P(A)}{P(B)}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一维随机变量及其分布&#34;&gt;一维随机变量及其分布
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;![[Pasted image 20241212184827.png]]&lt;/li&gt;
+&lt;li&gt;![[Pasted image 20241212185301.png]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 泊松公式⭐
+$P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 数字特征⭐
+![[Pasted image 20241213174041.png]]
+![[Pasted image 20241213174452.png]]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;题&#34;&gt;题
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;![[Pasted image 20241213160639.png]]&lt;/li&gt;
+&lt;li&gt;![[Pasted image 20241213161118.png]]&lt;/li&gt;
+&lt;li&gt;判断独立的方法 &lt;code&gt;联合密度 = 边缘密度的积&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -499,7 +527,7 @@ $P(A \overline{B}) = P(A)-P(AB)$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英语听力 昨天的作文 没有开写&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数学 概率论 看看 写写题&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数学 概率论 看看 写写题&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 大数据 书 再看一遍  po 到 博客上 看看 PPT  看看有什么不懂的概念没?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 探索性数据分析 不知道看什么 ? 先确定要看什么?&lt;/li&gt;
 &lt;/ol&gt;
@@ -611,6 +639,12 @@ $P(A \overline{B}) = P(A)-P(AB)$
 &lt;/li&gt;
 &lt;li&gt;一个新的手势 &lt;code&gt;食指不动 拇指和中指 向食指方向划&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h4 id=&#34;2024年12月13日&#34;&gt;2024年12月13日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;忍不了了  想完全自己写一个 一个 更加现代化(高效果 &lt;a class=&#34;link&#34; href=&#34;https://gsap.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gasp&lt;/a&gt;)的 博客 支持渲染 &lt;code&gt;tikz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;寒假有得忙了.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;必须要具备的能力&#34;&gt;必须要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;excel&lt;/code&gt; &lt;code&gt;word&lt;/code&gt; &lt;code&gt;ppt&lt;/code&gt; 这三个都好像要精通 ,没事把这个 作品上传到 &lt;code&gt;blog&lt;/code&gt; 上去&lt;/li&gt;
@@ -623,7 +657,11 @@ $P(A \overline{B}) = P(A)-P(AB)$
 &lt;h2 id=&#34;可能要具备的能力&#34;&gt;可能要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;docker 云计算技术&lt;/li&gt;
-&lt;li&gt;manim 教学动画&lt;/li&gt;
+&lt;li&gt;manim 教学动画
+&lt;ol&gt;
+&lt;li&gt;tikz&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;blender 个人爱好&lt;/li&gt;
 &lt;/ol&gt;
 </description>

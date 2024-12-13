@@ -116,7 +116,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英语听力 昨天的作文 没有开写&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数学 概率论 看看 写写题&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数学 概率论 看看 写写题&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 大数据 书 再看一遍  po 到 博客上 看看 PPT  看看有什么不懂的概念没?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 探索性数据分析 不知道看什么 ? 先确定要看什么?&lt;/li&gt;
 &lt;/ol&gt;
@@ -228,6 +228,12 @@
 &lt;/li&gt;
 &lt;li&gt;一个新的手势 &lt;code&gt;食指不动 拇指和中指 向食指方向划&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h4 id=&#34;2024年12月13日&#34;&gt;2024年12月13日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;忍不了了  想完全自己写一个 一个 更加现代化(高效果 &lt;a class=&#34;link&#34; href=&#34;https://gsap.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gasp&lt;/a&gt;)的 博客 支持渲染 &lt;code&gt;tikz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;寒假有得忙了.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;必须要具备的能力&#34;&gt;必须要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;excel&lt;/code&gt; &lt;code&gt;word&lt;/code&gt; &lt;code&gt;ppt&lt;/code&gt; 这三个都好像要精通 ,没事把这个 作品上传到 &lt;code&gt;blog&lt;/code&gt; 上去&lt;/li&gt;
@@ -240,7 +246,11 @@
 &lt;h2 id=&#34;可能要具备的能力&#34;&gt;可能要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;docker 云计算技术&lt;/li&gt;
-&lt;li&gt;manim 教学动画&lt;/li&gt;
+&lt;li&gt;manim 教学动画
+&lt;ol&gt;
+&lt;li&gt;tikz&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;blender 个人爱好&lt;/li&gt;
 &lt;/ol&gt;
 </description>

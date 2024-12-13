@@ -109,6 +109,34 @@ $P(A - B) = P(A) - P(AB)$
 $P(A \overline{B}) = P(A)-P(AB)$
 证:$P(A  \overline{B}) = P{A(\Omega - B)}=P(A-AB)$&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 全概率公式与贝叶斯公式⭐
+公式:$P(A) = \sum_{i=1}^n P(A \cap B_i) = \sum_{i=1}^n P(A | B_i) P(B_i)$
+完备事件组:
+两两互斥: $B_i \cap B_j = \emptyset, \quad \forall i \neq j$
+穷尽性: $\bigcup_{i=1}^n B_i = \Omega$
+贝叶斯公式: $P(A | B) = \frac{P(B | A) P(A)}{P(B)}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一维随机变量及其分布&#34;&gt;一维随机变量及其分布
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;![[Pasted image 20241212184827.png]]&lt;/li&gt;
+&lt;li&gt;![[Pasted image 20241212185301.png]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 泊松公式⭐
+$P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] 数字特征⭐
+![[Pasted image 20241213174041.png]]
+![[Pasted image 20241213174452.png]]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;题&#34;&gt;题
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;![[Pasted image 20241213160639.png]]&lt;/li&gt;
+&lt;li&gt;![[Pasted image 20241213161118.png]]&lt;/li&gt;
+&lt;li&gt;判断独立的方法 &lt;code&gt;联合密度 = 边缘密度的积&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
