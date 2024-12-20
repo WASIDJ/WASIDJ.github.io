@@ -649,11 +649,26 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
     &gt;gasp&lt;/a&gt;)的 博客 支持渲染 &lt;code&gt;tikz&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;寒假有得忙了.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;2024年12月18日-1&#34;&gt;2024年12月18日
-&lt;/h2&gt;&lt;ol&gt;
+&lt;h4 id=&#34;2024年12月18日-1&#34;&gt;2024年12月18日
+&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/探索性数据分析 作业]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/大数据技术原理与应用]]&lt;/li&gt;
 &lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;没完成 失败经验 办事没有流程 没有章程 经常涉及到任务切换 导致队列异常的长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2024年12月20日&#34;&gt;2024年12月20日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 一刻都不能休息啊,要学的东西太多了 做到办事记录 使用管理技巧&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 继续完善之前的作业 [[concreteness/流程]]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;感慨:
+&lt;ol&gt;
+&lt;li&gt;太早接触 &lt;code&gt;md&lt;/code&gt;了,导致了什么都在上面写. &lt;code&gt;PPT&lt;/code&gt; &lt;code&gt;Word&lt;/code&gt; &lt;code&gt;Excel&lt;/code&gt; 也都只是能用的程度 说实话,我都不知道这些软件能做什么? 还是要在这上面 多花 &lt;code&gt;功夫&lt;/code&gt; (&lt;code&gt;PS: 大致了解它能干什么?干到什么地步? 之后 一遍 一遍 重复的内容就会很痛苦.&lt;/code&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;必须要具备的能力&#34;&gt;必须要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;excel&lt;/code&gt; &lt;code&gt;word&lt;/code&gt; &lt;code&gt;ppt&lt;/code&gt; 这三个都好像要精通 ,没事把这个 作品上传到 &lt;code&gt;blog&lt;/code&gt; 上去&lt;/li&gt;
@@ -673,6 +688,58 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;blender 个人爱好&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h1 id=&#34;开的坑&#34;&gt;开的坑
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数学能力&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[[数学/高数]]&lt;/li&gt;
+&lt;li&gt;[[数学/线代]]&lt;/li&gt;
+&lt;li&gt;[[数学/离散数学]]&lt;/li&gt;
+&lt;li&gt;[[数学/概率论]]&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自己写项目&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[项目/真实环境下的AI社交]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[毕设/基于VL的体育视频智能剪辑]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[玩具/筛选实习工作的自动化流程]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[玩具/基于个人笔记生成具有针对性的简历]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[玩具/无纸化写题]] 痛点: 找不到题 找不到解析 找不到答案 不想自己批改&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;证书&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[高项/软考]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[ACM/ACM]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[英语/六级]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[Linux/HCIP认证]]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;个人爱好&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[blog/美化]] 原则: 高动态 高可交互 更加丰富文件呈现 协调 简洁&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[OS/编译原理]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[CPP/Cprimer]]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;缓解压力的 爱好&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/实用主义]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/人类理解研究]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/灵魂机械]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/人月神话]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/弗洛伊迪及其追随者]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/论三位一体]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[看书/]]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
