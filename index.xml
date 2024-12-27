@@ -531,8 +531,29 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 大数据 书 再看一遍  po 到 博客上 看看 PPT  看看有什么不懂的概念没?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 探索性数据分析 不知道看什么 ? 先确定要看什么?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;2024年12月18日&#34;&gt;2024年12月18日
+&lt;h2 id=&#34;2024年12月24日&#34;&gt;2024年12月24日
 &lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 先写 习近平新时代的 &lt;code&gt;ppt&lt;/code&gt; [[流程]]
+&lt;ul&gt;
+&lt;li&gt;思路:
+&lt;ol&gt;
+&lt;li&gt;休谟怀疑&lt;/li&gt;
+&lt;li&gt;奥古斯丁的&lt;code&gt;真理&lt;/code&gt;认识&lt;/li&gt;
+&lt;li&gt;帕斯卡尔信仰关系&lt;/li&gt;
+&lt;li&gt;信仰的两种极端(存在与虚无)&lt;/li&gt;
+&lt;li&gt;詹姆斯实用主义思想&lt;/li&gt;
+&lt;li&gt;生活影响以及一些谬误(尼采)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;主旨: 活的丰富远比活得正确重要。&lt;/li&gt;
+&lt;li&gt;故事: 伊索寓言，胖狐狸的应用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; hadoop作业[[流程]]&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 想玩一下 &lt;code&gt;genesis&lt;/code&gt; &lt;a class=&#34;link&#34; href=&#34;https://genesis-doc-zh.readthedocs.io/zh-cn/latest/user_guide/overview/why_a_new_simulator.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方教程&lt;/a&gt; 可无限期 延后&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;事件记录&#34;&gt;事件记录
@@ -649,7 +670,7 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
     &gt;gasp&lt;/a&gt;)的 博客 支持渲染 &lt;code&gt;tikz&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;寒假有得忙了.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;2024年12月18日-1&#34;&gt;2024年12月18日
+&lt;h4 id=&#34;2024年12月18日&#34;&gt;2024年12月18日
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/探索性数据分析 作业]]&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/大数据技术原理与应用]]&lt;/li&gt;
@@ -669,6 +690,10 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;2024年12月24日-1&#34;&gt;2024年12月24日
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;能否修改 ubuntu的login 和 pwd?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;必须要具备的能力&#34;&gt;必须要具备的能力
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;excel&lt;/code&gt; &lt;code&gt;word&lt;/code&gt; &lt;code&gt;ppt&lt;/code&gt; 这三个都好像要精通 ,没事把这个 作品上传到 &lt;code&gt;blog&lt;/code&gt; 上去&lt;/li&gt;
@@ -1026,6 +1051,14 @@ $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>https://WASIDJ.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://WASIDJ.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://WASIDJ.github.io/p/</guid>
         <description></description>
         </item>
         <item>
