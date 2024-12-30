@@ -91,7 +91,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;毛泽东 期末论文&lt;/code&gt; 狗日的手抄&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 快点 把期末大作业写完 然后 在微信朋友圈中 帮人写作业  &lt;code&gt;75RMB&lt;/code&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;SC&lt;/code&gt; &lt;code&gt;50￥&lt;/code&gt; 还在考虑中&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;SC&lt;/code&gt; &lt;code&gt;50￥&lt;/code&gt; 还在考虑中&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -261,8 +261,8 @@
 &lt;/ol&gt;
 &lt;h4 id=&#34;2024年12月18日&#34;&gt;2024年12月18日
 &lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/探索性数据分析 作业]]&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/大数据技术原理与应用]]&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/探索性数据分析 作业]]&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; [[concreteness/大数据技术原理与应用]]&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;没完成 失败经验 办事没有流程 没有章程 经常涉及到任务切换 导致队列异常的长&lt;/li&gt;
