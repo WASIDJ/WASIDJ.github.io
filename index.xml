@@ -20,13 +20,11 @@
 设 $P(A) = 0.5$，$P(A \cup B) = 0.8$，且 $A$ 和 $B$ 互不相容，求 $P(B)$。
 $P(A \cup B) = P(A) + P(B) - P(AB)$
 $P(A \cup B \cup C) = P(A) + P(B) + P(B) - P(AB) - P(AC) -P(BC) + P(ABC)$ &lt;code&gt;PS:加奇减偶&lt;/code&gt;
-${A B C} \subset {A B}\Rightarrow P(ABC) \leq P(AB)$&lt;/p&gt;
-&lt;/blockquote&gt;
+${A B C} \subset {A B}\Rightarrow P(ABC) \leq P(AB)$&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE] 减法公式⭐
 $P(A - B) = P(A) - P(AB)$
-对立事件: $P(\overline{A}) = 1 - P(A)$&lt;/p&gt;
-&lt;/blockquote&gt;
+对立事件: $P(\overline{A}) = 1 - P(A)$&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -107,16 +105,14 @@ $P(A - B) = P(A) - P(AB)$
 &lt;p&gt;[!NOTE] 条件概率⭐
 条件概率公式:$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$
 $P(A \overline{B}) = P(A)-P(AB)$
-证:$P(A  \overline{B}) = P{A(\Omega - B)}=P(A-AB)$&lt;/p&gt;
-&lt;/blockquote&gt;
+证:$P(A  \overline{B}) = P{A(\Omega - B)}=P(A-AB)$&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE] 全概率公式与贝叶斯公式⭐
 公式:$P(A) = \sum_{i=1}^n P(A \cap B_i) = \sum_{i=1}^n P(A | B_i) P(B_i)$
 完备事件组:
 两两互斥: $B_i \cap B_j = \emptyset, \quad \forall i \neq j$
 穷尽性: $\bigcup_{i=1}^n B_i = \Omega$
-贝叶斯公式: $P(A | B) = \frac{P(B | A) P(A)}{P(B)}$&lt;/p&gt;
-&lt;/blockquote&gt;
+贝叶斯公式: $P(A | B) = \frac{P(B | A) P(A)}{P(B)}$&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;一维随机变量及其分布&#34;&gt;一维随机变量及其分布
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;![[Pasted image 20241212184827.png]]&lt;/li&gt;
@@ -124,13 +120,11 @@ $P(A \overline{B}) = P(A)-P(AB)$
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE] 泊松公式⭐
-$P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;
-&lt;/blockquote&gt;
+$P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE] 数字特征⭐
 ![[Pasted image 20241213174041.png]]
-![[Pasted image 20241213174452.png]]&lt;/p&gt;
-&lt;/blockquote&gt;
+![[Pasted image 20241213174452.png]]&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;题&#34;&gt;题
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;![[Pasted image 20241213160639.png]]&lt;/li&gt;
